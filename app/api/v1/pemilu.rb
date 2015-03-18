@@ -26,8 +26,8 @@ module Pemilu
           .each do |rekap|
             rekaps << {
               provinsi: {
-                id: rekap.province.id,
-                nama: rekap.province.nama_lengkap
+                id: rekap.province_id,
+                nama: rekap.province_nama_lengkap
               },
               urut: rekap.urut,
               pasangan: rekap.pasangan,
